@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 5173
+EXPOSE 3000:5173
 
 CMD [ "npm","run","dev" ]
 
@@ -17,4 +17,4 @@ CMD [ "npm","run","dev" ]
 
 # docker image build -t react-image:dev .
 # docker images
-# docker run -p 5173:3000 react-image:dev
+# docker run -p 3000:5173 react-image:dev
