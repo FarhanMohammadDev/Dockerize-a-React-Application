@@ -12,8 +12,6 @@ EXPOSE 3000:5173
 
 CMD [ "npm","run","dev" ]
 
-# Terminal
 
-# docker image build -t react-image:dev .
 # docker images
 # docker run -p 3000:5173 react-image:dev
