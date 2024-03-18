@@ -21,6 +21,7 @@ CMD [ "npm","run","dev" ]
 
 
 # How to Push the Image to Docker Hub
+
 # docker login
 # docker image tag react-example-image <username>/react-example-image
 # docker image tag react-image:dev farhanishappy/daily-mood-tracker
